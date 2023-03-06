@@ -1,0 +1,57 @@
+.container{
+    position: relative;
+    background-color: aqua;
+    height: 700px;
+    width: auto;
+}
+.screen{
+    position: relative;
+    max-width: 70%;
+    background-color: antiquewhite;
+    height: 400px;
+    top: 15%;
+    overflow-y: scroll;
+}
+.sender , .reciver {
+    min-height: 50px;
+    width: 45%;
+    background-color:black;
+}
+.sender{
+    float: right;
+    clear: both;
+    text-align: right;
+    padding-right: 5px;
+}
+.reciver{
+    float: left;
+    clear: both;
+    text-align: left;
+    padding-left: 5px;
+}
+p{
+    color: white;
+}
+.actions{
+    width: 90%;
+    position: relative;
+    top: 15%;
+}
+.input{
+    height: 40px;
+    width: 59%;
+    border: 2px solid green;
+}
+.sendBtn{
+    background-color: green;
+    color: white;
+    height: 45px;
+    width: 17%;
+    border: none;
+}
+.sendBtn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
